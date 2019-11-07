@@ -4,8 +4,8 @@
 
 ### 3.1 Search 명령으로 이미지 검색하기
 
-> $ docker search ubuntu
 ```
+$ docker search ubuntu
 NAME                                                      DESCRIPTION                                     STARS               OFFICIAL            AUTOMATED
 ubuntu                                                    Ubuntu is a Debian-based Linux operating sys…   10115               [OK]
 dorowu/ubuntu-desktop-lxde-vnc                            Docker image to provide HTML5 VNC interface …   358                                     [OK]
