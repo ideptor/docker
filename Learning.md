@@ -14,48 +14,41 @@ rastasheep/ubuntu-sshd                                    Dockerized SSH service
 ```
 
 ### 3.2 pull 명령으로 이미지 받기
-
 ```
-$ docker pull ubuntu                                                                                                                       ```
+$ docker pull ubuntu
+```
 
 ### 3.3 images 명령으로 이미지 목록 출력하기
-
 ```
 $ docker images
 ```
 
 ### 3.4 run 명령으로 컨테이너 생성하기
-
 ```
 docker run -dit --name hello ubuntu /bin/bash
 ```
 
 ### 3.5 ps 명령으로 컨테이너 목록 확인하기
-
 ```
 $ cker ps -a
 ```
 
 ### 3.6 start 명령으로 컨테이너 시작하기
-
 ```
 $ sudo docker start hello
 ```
 
 ### 3.7 restart 명령으로 컨테이너 재시작하기
-
 ```
 $ sudo docker restart hello
 ```
 
 ### 3.8 attach 명령으로 컨테이너 접속하기
-
 ```
 $ sudo docker attach hello
 ```
 
 ### 3.9 exec명령으로 외부에서 컨테이너 안의 명령 실행하기
-
 ```
 $ sudo docker exec hello echo "hello world"
 ```
