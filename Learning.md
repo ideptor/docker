@@ -110,9 +110,12 @@ c3af8e2d006b        10 minutes ago      /bin/sh -c apt-get update               
 <missing>           6 days ago          /bin/sh -c set -xe   && echo '#!/bin/sh' > /…   745B
 <missing>           6 days ago          /bin/sh -c [ -z "$(apt-get indextargets)" ]     987kB
 <missing>           6 days ago          /bin/sh -c #(nop) ADD file:a48a5dc1b9dbfc632…   63.2MB
+```
 
 ### 5.2 cp 명령으로 파일 꺼내기
+```
 $ docker cp hello-nginx:/etc/nginx/nginx.conf ./
+```
 
 ### 5.3 commit 명령으로 컨테이너의 변경사항을 이미지로 생성하기
 ```
