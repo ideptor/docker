@@ -86,7 +86,7 @@ $ sudo docker build --tag hello:0.1
 $ sudo docker run --name hello-nginx -d -p 80:80 /root/data:/data hello:0.1
 ```
 
-웹브라우저를 실행하고 **http://<host IP>:8080** 으로 접속하면 Welcome to ninx! 페이지 표시
+웹브라우저를 실행하고 **http://(host IP):8080** 으로 접속하면 Welcome to nginx! 페이지 표시
 
 
 ## CH05 Docker 살펴보기
