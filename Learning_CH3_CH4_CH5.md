@@ -148,3 +148,4 @@ $ docker inspect hello-nginx
         "Path": "nginx",
 ...
 ```
+
