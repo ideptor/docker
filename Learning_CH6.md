@@ -47,5 +47,17 @@ $ docker pull registry:latest
 $ docker run -d -p 5000:5000 --name hello-registry -v /c/Users/idept/Documents/docker/registry:/tmp/registry registry
 ```
 
+#### 6.1.2 push 명령으로 이미지 올리기
+
+tag생성: docker tag <이미지이름>:<tag> <docker 레지스트리 URL>/<이미지 이름>:<tag>
+
+```
+$ docker tag hello:0.1 localhost:5000/hello:0.1
+```
+
+```
+$ docker push localhost:5000/hello:0.1
+```
+
 
 
