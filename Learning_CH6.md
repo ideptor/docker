@@ -59,5 +59,21 @@ $ docker tag hello:0.1 localhost:5000/hello:0.1
 $ docker push localhost:5000/hello:0.1
 ```
 
+### 6.2 Docker 컨테이너 연결하기
+
+mongo 컨테이너 생성
+```
+$ docker run --name db -d mongo
+```
+
+nginx 컨테이너 생성하며 ``--link`` 옵션으로 mongo 컨테이너와 연결
+
+```
+$ docker run --name web -d -p 80:80 --link db:db nginx
+```
+
+
+
+
 
 
