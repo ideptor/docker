@@ -77,8 +77,10 @@ EXPOSE 443
 ```
 
 ### 4.2 build 명령으로 이미지 생성하기
+
+*Dockerfile의 위치를 지정해주어야 함*
 ```
-$ sudo docker build --tag hello:0.1
+$ sudo docker build --tag hello:0.1 .
 ```
 
 ### 4.3 실행하기
